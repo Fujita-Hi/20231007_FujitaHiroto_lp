@@ -1,85 +1,3 @@
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-h2 {
-    font-size: 30px;
-}
-
 .header {
     display: flex;
     align-items: center;
@@ -322,6 +240,7 @@ img.firstview__img--right {
 .service__item--block {
     width: 50%;
     display: block;
+    color: white;
 }
 
 .service__item2 {
@@ -346,12 +265,16 @@ img.firstview__img--right {
 
 .service__item2-text {
     margin: auto 0 auto 20px;
+}
+
+.service__smallttl2 {
     color: white;
 }
 
 .service__text2 {
     margin-top: 10px;
     line-height: 25px;
+    color: white;
 }
 
 .blog {
@@ -388,6 +311,7 @@ img.firstview__img--right {
     height: 350px;
     border-radius: 15px;
     background-color: white;
+    font-size: 1vw;
 }
 
 .Blog__logobackbox {
@@ -425,21 +349,25 @@ img.firstview__img--right {
     text-align: left;
     margin-top: 20px;
     line-height: 30px;
+    font-weight: bold;
 }
 
 .blog__bottom {
-    position: absolute;
-    bottom: 20px;
     display: flex;
     justify-content: space-between;
-    font-size: 1vw;
+    background-color: #993366;
 }
 
 .blog__date {
+    position: absolute;
+    bottom: 20px;
     text-align: left;
 }
 
 .blog__hashtag {
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
     text-align: right;
 }
 
@@ -488,7 +416,6 @@ img.firstview__img--right {
     width: 100%;
     height: 50px;
     text-align: left;
-    color: rgb(113, 113, 113);
 }
 
 .company__th {
@@ -562,7 +489,6 @@ img.firstview__img--right {
 .footer__title {
     font-size: 2vw;
     font-weight: bold;
-    color: rgb(113, 113, 113);
 }
 
 .footer__line {
@@ -619,5 +545,4 @@ img.firstview__img--right {
     display: grid;
     place-items: center;
     background-color: rgb(245, 245, 245);
-    color: rgb(113, 113, 113);
 }
